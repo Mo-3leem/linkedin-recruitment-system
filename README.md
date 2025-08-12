@@ -65,18 +65,18 @@ LINKEDIN/
     2️⃣ Backend Setup
         cd backend
         npm install
-    Create a .env file inside backend/:
-        PORT=5000
-        MONGO_URI=your_mongodb_connection_string
-        JWT_SECRET=your_jwt_secret
+        Create a .env file inside backend/:
+            PORT=5000
+            MONGO_URI=your_mongodb_connection_string
+            JWT_SECRET=your_jwt_secret
+        Run backend:
+            npm start
 
-Run backend:
-npm start
-
-3️⃣ Frontend Setup
-cd ../frontend
-npm install
-npm run dev
+    3️⃣ Frontend Setup
+        cd ../frontend
+        npm install
+        Run frontend:
+            npm run dev
 
 ## 📸 Screenshots
 
@@ -87,3 +87,9 @@ npm run dev
 | Profile Page                        |
 | ----------------------------------- |
 | ![Profile](screenshots/profile.png) |
+
+## 👨‍💻 Author
+
+**Mohammed Ahmed Abdelaleem**  
+📧 [Email Me](mailto:moahmedabdelaleem2@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/mohammed-abdelaleem/) | [GitHub](https://github.com/Mo-3leem)
