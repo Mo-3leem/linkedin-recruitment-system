@@ -32,30 +32,6 @@ React (Vite)
 TailwindCSS + PostCSS
 Axios for API calls
 
-📂 Project Structure
-
-LINKEDIN/
-│
-├── backend/
-│ ├── config/ # Database & environment config
-│ ├── controllers/ # Request handling logic
-│ ├── middleware/ # Auth & validation middleware
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # API route definitions
-│ ├── uploads/ # Resume uploads (ignored in git)
-│ ├── app.js # Express app entry point
-│ ├── package.json
-│ └── .env # Environment variables
-│
-├── frontend/
-│ ├── src/ # React components & pages
-│ ├── index.html
-│ ├── package.json
-│ ├── tailwind.config.js
-│ └── vite.config.js
-│
-└── README.md
-
 ⚙ Installation & Setup
 
     1️⃣ Clone the Repository
