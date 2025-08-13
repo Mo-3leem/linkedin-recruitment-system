@@ -4,7 +4,9 @@
   "description": "Backend server for Job Recruitment System",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
@@ -18,5 +20,9 @@
     "mongoos": "^0.0.1-security",
     "mongoose": "^8.16.4",
     "multer": "^2.0.2"
+  },
+  "homepage": "https://yourusername.github.io/my-project",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

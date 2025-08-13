@@ -7,7 +7,7 @@ const {
   getApplicationsForJob,
   downloadCV,
 } = require("../controllers/applicationController");
-const upload = require("../middleware/uploadMiddleware");
+const upload = require("../middleware/uploadmiddleware.js");
 
 router.post("/:jobId", protect, upload.single("cv"), applyToJob);
 
